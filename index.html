@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assests/img/favicon.ico" type="image/x-icon">
+    
+    <!--Glidejs Carousel-->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <!--Animate On Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="./assests/css/styles.css">
+    
+    <title>Phone Shop</title>
 </head>
 <body>
-    
+    <!--Header-->
+
+    <heade class="header" id="header">
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+
+                    <div class="nav__hamburger">
+                        <i class="fas fa-align-justify"></i>
+                    </div>
+
+                    <div class="nav__logo">
+                        <a href="/" class="scroll-line">PHONE</a>
+                    </div>
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <span class="nav__category">PHONE</span>
+                            <a href="#" class="close__toggle">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#header" class="nav__link scroll__link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#category" class="nav__link scroll__link">Category</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#news" class="nav__link scroll__link">Blog</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link scroll__link">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="nav__icons">
+                        <a href="#" class="icon__item">
+                            <!--User-->
+                            <i class="fas fa-user"></i>
+                        </a>
+
+                        <a href="#" class="icon__item">
+                            <!--Search-->
+                            <i class="fas fa-search"></i>
+                        </a>
+
+                        <a href="#" class="icon__item">
+                            <!--Shopping Basket-->
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart__total">0</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </heade>
+
+    <!--Hero Area-->
+
+    <!--GlideJS-->
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Scripts-->
+    <script src="./assests//js/index.js"></script>
+    <script src="./assests//js/products.js"></script>
+    <script src="./assests//js/slider.js"></script>
+
+    <!--Font-Awesome-->
+    <script src="https://kit.fontawesome.com/b8df4a6aa0.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
