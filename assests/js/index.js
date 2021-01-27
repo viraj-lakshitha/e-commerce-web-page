@@ -19,6 +19,7 @@ navClose.addEventListener("click", () => {
   navContainer.style.width = "0";
 });
 
+ 
 /* Pop-Up */
 
 /* Fixed-Navigation */
